@@ -1,0 +1,2942 @@
+<?xml version="1.0" encoding="ASCII"?>
+<traces:Traces xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+ xmlns:traces="platform:/ressource/org.but4reuse.osgiplugin.tracer/model/traces.ecore"
+ start="2019-02-10T00:09:22.499+0100" end="2019-02-10T00:27:43.591+0100">
+  <pluginTraces symbolicName="org.eclipse.osgi" version="3.9.1.v20140110-1610">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:22.796+0100">
+      <registredServives name="org.eclipse.osgi.service.runnable.StartupMonitor" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.packageadmin.PackageAdmin" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.permissionadmin.PermissionAdmin" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.startlevel.StartLevel" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="java.lang.ClassLoader" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.log.LogReaderService" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.log.LogService" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.framework.log.FrameworkLog" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="javax.xml.parsers.SAXParserFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="javax.xml.parsers.DocumentBuilderFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.datalocation.Location" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.urlconversion.URLConverter" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.environment.EnvironmentInfo" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.resolver.PlatformAdmin" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.pluginconversion.PluginConverter" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.localization.BundleLocalization" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.service.security.TrustEngine" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.signedcontent.SignedContentFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.osgi.internal.provisional.verifier.CertificateVerifierFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <registredServives name="org.osgi.service.framework.CompositeBundleFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.url.URLStreamHandlerService" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.packageadmin.PackageAdmin" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.service.runnable.StartupMonitor" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.signedcontent.SignedContentFactory" date="2019-02-10T00:09:22.827+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.simpleconfigurator" version="1.0.400.v20130327-2119">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="com.ibm.icu" version="50.1.1.v201304230130">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.301+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="com.jcraft.jsch" version="0.1.50.v201310081430">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="com.lowagie.text" version="2.1.7.v201004222200">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="com.sun.el" version="2.2.0.v201303151357">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="com.sun.syndication" version="0.9.0.v200803061811">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="commonj.sdo" version="2.1.1.v201112051852">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="java_cup.runtime" version="0.10.0.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.activation" version="1.1.0.v201211130549">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.activation" version="1.1.0.v201108011116">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.annotation" version="1.1.0.v201209060031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.el" version="2.2.0.v201303151357">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.inject" version="1.0.0.v20091030">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.mail" version="1.4.0.v201005080615">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.persistence" version="2.1.0.v201304241213">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.servlet" version="3.0.0.v201112011016">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.servlet.jsp" version="2.2.0.v201112011158">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.ws.rs" version="1.1.1.v20101004-1200">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.wsdl" version="1.6.2.v201012040545">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.wsdl" version="1.5.1.v201012040544">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.xml" version="1.3.4.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.xml.bind" version="2.2.0.v201105210648">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.xml.rpc" version="1.1.0.v201209140446">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.xml.soap" version="1.2.0.v201005080501">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="javax.xml.stream" version="1.0.1.v201004272200">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="net.sourceforge.lpg.lpgjavaruntime" version="1.1.0.v201004271650">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.ant" version="1.8.4.v201303080030">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.axis" version="1.4.0.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.bridge" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.css" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.dom" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.dom.svg" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.ext.awt" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.parser" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.pdf" version="1.6.0.v201105071520">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.svggen" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.transcoder" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.util" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.util.gui" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.batik.xml" version="1.6.0.v201011041432">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.bcel" version="5.2.0.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.codec" version="1.4.0.v201209201156">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.collections" version="3.2.0.v2013030210310">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.discovery" version="0.2.0.v201004190315">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.httpclient" version="3.1.0.v201012070820">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.io" version="2.0.1.v201105210651">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.lang" version="2.6.0.v201205030909">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.logging" version="1.1.1.v201101211721">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.logging" version="1.0.4.v201101211617">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.commons.net" version="3.2.0.v201305141515">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.derby.core" version="10.5.1.1_v20120820">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.felix.gogo.command" version="0.10.0.v201209301215">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:23.225+0100">
+      <registredServives name="org.apache.felix.gogo.command.Basic" date="2019-02-10T00:09:23.225+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.command.Files" date="2019-02-10T00:09:23.225+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.command.OBR" date="2019-02-10T00:09:23.225+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.felix.gogo.runtime" version="0.10.0.v201209301036">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:23.194+0100">
+      <registredServives name="org.apache.felix.service.threadio.ThreadIO" date="2019-02-10T00:09:23.194+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.service.command.CommandProcessor" date="2019-02-10T00:09:23.194+0100" serviceState="registered"/>
+      <consumedServices name="org.apache.felix.service.command.Converter" date="2019-02-10T00:09:23.194+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.event.EventAdmin" date="2019-02-10T00:09:23.194+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.felix.gogo.shell" version="0.10.0.v201212101605">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:23.210+0100">
+      <registredServives name="org.apache.felix.service.command.Converter" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.shell.Builtin" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.shell.Procedural" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.shell.Posix" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.shell.Telnet" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.gogo.shell.Shell" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+      <consumedServices name="org.apache.felix.service.command.CommandProcessor" date="2019-02-10T00:09:23.210+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.httpcomponents.httpclient" version="4.1.3.v201209201135">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.httpcomponents.httpcore" version="4.1.4.v201203221030">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.jasper.glassfish" version="2.2.2.v201205150955">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.log4j" version="1.2.15.v201012070815">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.lucene.analysis" version="3.5.0.v20120725-1805">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.lucene.core" version="3.5.0.v20120725-1805">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.poi" version="3.9.0.v201303080712">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.velocity" version="1.5.0.v200905192330">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.ws.commons.util" version="1.0.1.v20100518-1140">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.wsil4j" version="1.0.0.v200901211807">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.xalan" version="2.7.1.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.xerces" version="2.9.0.v201101211617">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.xml.resolver" version="1.2.0.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.xml.serializer" version="2.7.1.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.apache.xmlrpc" version="3.0.0.v20100427-1100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.but4reuse.osgiplugin.tracer" version="1.0.0.qualifier">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:22.749+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ant.core" version="3.2.500.v20140203-1328">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ant.launching" version="1.0.300.v20140203-1328">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.294+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ant.ui" version="3.5.400.v20140203-1328">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.279+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt" version="4.3.2.v201308301349">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.axis.overlay" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.cshelp" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.device.extension" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.326+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.device.pdf" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.310+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.device.svg" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.326+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.device.swt" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.341+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.engine" version="4.3.2.v201309171028">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.435+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.engine.extension" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.388+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.examples" version="4.3.2.v201309171028">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.294+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.examples.core" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.341+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.reportitem" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.388+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.reportitem.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.092+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.404+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.chart.ui.extension" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.404+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.core" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.core.script.function" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.450+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.core.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.513+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.cshelp" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data.aggregation" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data.oda.mongodb" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data.oda.mongodb.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data.oda.pojo" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.data.oda.pojo.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.513+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.doc" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.example" version="4.3.2.v201308301349">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.me.prettyprint.hector" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.adapter" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.bidi.utils" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.bidi.utils.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.excel" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.excel.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.hive" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.hive.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc.dbprofile" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc.dbprofile.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.jdbc.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.sampledb" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.sampledb.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.xml" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.data.oda.xml.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.debug.core" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.debug.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.076+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.core" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.samplereports" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.575+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.cubebuilder" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.528+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.data" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.528+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.editor.script" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.466+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.editor.xml.wtp" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.466+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.editors" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.544+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.editors.schematic" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.497+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.ide" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.201+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.lib" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.482+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.lib.explorer" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.482+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.preview.web" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.419+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.samples.ide" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.544+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.samplesview" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.560+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.designer.ui.views" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.575+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.dataextraction" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.591+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.dataextraction.csv" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.575+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.docx" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.excel" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.html" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.odp" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.ods" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.odt" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.pdf" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.postscript" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.ppt" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.pptx" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.config.wpml" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.docx" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.html" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.odp" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.ods" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.357+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.odt" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.pdf" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.postscript" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.ppt" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.pptx" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.prototype.excel" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.372+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.emitter.wpml" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.fonts" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.odf" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.ooxml" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.engine.script.javascript" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.item.crosstab.core" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.item.crosstab.ui" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.107+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.model" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.model.adapter.oda" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.report.viewer" version="4.3.2.v201402141300">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.435+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.birt.resources" version="4.3.2.v20140211-1400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.compare" version="3.5.401.v20130709-1308">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.compare.core" version="3.5.300.v20130514-1224">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.compare.win32" version="1.0.200.v20130514-1224">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.commands" version="3.6.100.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.contenttype" version="3.4.200.v20130326-1255">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.databinding" version="1.4.1.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.databinding.beans" version="1.2.200.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.databinding.observable" version="1.4.1.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.723+0100">
+      <consumedServices name="org.eclipse.osgi.framework.log.FrameworkLog" date="2019-02-10T00:09:24.723+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.databinding.property" version="1.4.200.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.expressions" version="3.4.501.v20131118-1915">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.130+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.externaltools" version="1.0.200.v20130402-1741">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.filebuffers" version="3.5.300.v20130225-1821">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.750+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.filesystem" version="1.4.0.v20130514-1240">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.filesystem.win32.x86_64" version="1.4.0.v20121112-1357">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.jobs" version="3.5.300.v20130429-1813">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.net" version="1.2.200.v20130430-1352">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.706+0100">
+      <registredServives name="org.eclipse.core.net.proxy.IProxyService" date="2019-02-10T00:09:26.706+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.service.datalocation.Location" date="2019-02-10T00:09:26.706+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:26.706+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.net.win32.x86_64" version="1.0.100.v20100505-1614">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.resources" version="3.8.101.v20130717-0806">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.resources.win32.x86_64" version="3.5.0.v20121203-0906">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.runtime" version="3.9.100.v20131218-1515">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.runtime.compatibility" version="3.2.200.v20130326-1255">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.runtime.compatibility.auth" version="3.2.300.v20120523-2004">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.runtime.compatibility.registry" version="3.5.200.v20130514-1256">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.core.variables" version="3.2.700.v20130402-1741">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.cvs" version="1.4.0.v20140221-1700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.common.doc.user" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity" version="1.2.11.v201401230755">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.apache.derby" version="1.0.103.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.apache.derby.dbdefinition" version="1.0.2.v201107221459">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.apache.derby.ui" version="1.0.3.v201107221459">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.console.profile" version="1.0.10.v201109250955">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.db.generic" version="1.0.1.v201107221459">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.db.generic.ui" version="1.0.2.v201211200622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.dbdefinition.genericJDBC" version="1.0.2.v201310181001">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.doc.user" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.doc.user.contexts" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda" version="3.4.2.v201311051159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.consumer" version="3.2.6.v201305170644">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.design" version="3.3.6.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.design.ui" version="3.2.9.v201305031540">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.flatfile" version="3.1.7.v201311081026">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.flatfile.ui" version="3.1.9.v201309221054">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.profile" version="3.2.9.v201307270622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.oda.template.ui" version="3.2.4.v201301111130">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.201+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.sqm.core" version="1.2.8.v201401230755">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.sqm.core.ui" version="1.2.3.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.sqm.server.ui" version="1.1.101.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.ui" version="1.2.4.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.connectivity.ui.dse" version="1.1.5.v201212070447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.doc.user" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.finfo" version="1.5.1.v200906161800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.hsqldb" version="1.0.0.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.hsqldb.dbdefinition" version="1.0.0.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.hsqldb.ui" version="1.0.0.v201108120600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm" version="1.0.0.v201401170830">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2" version="1.0.0.v201401170830">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.iseries" version="1.0.2.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition" version="1.0.3.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.iseries.ui" version="1.0.3.v201212120614">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.luw" version="1.0.3.v201401170830">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition" version="1.0.6.v201401290336">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.luw.ui" version="1.0.6.v201402010752">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.zseries" version="1.0.2.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition" version="1.0.4.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.db2.zseries.ui" version="1.0.2.v201202100836">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.informix" version="1.0.1.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.informix.dbdefinition" version="1.0.4.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.informix.ui" version="1.0.3.v201202100836">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ibm.ui" version="1.0.0.v201107221502">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ingres" version="1.0.0.v200906111150">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ingres.dbdefinition" version="1.0.0.v200906161800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.ingres.ui" version="1.0.0.v201105270214">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.jdt.classpath" version="1.0.1.v201107221501">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.msft.sqlserver" version="1.0.3.v201308161009">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition" version="1.0.1.v201201240505">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.msft.sqlserver.ui" version="1.0.4.v201308031011">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.mysql" version="1.0.4.v201212120617">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.mysql.dbdefinition" version="1.0.4.v201109022331">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.mysql.ui" version="1.0.0.v201109022331">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oda.ws" version="1.2.6.v201307051812">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oda.ws.ui" version="1.2.6.v201308091040">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oda.xml" version="1.2.5.v201305031101">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oda.xml.ui" version="1.2.7.v201309031044">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oracle" version="1.0.0.v201107221506">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oracle.dbdefinition" version="1.0.103.v201206010214">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.oracle.ui" version="1.0.3.v201201131121">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.postgresql" version="1.1.1.v201205252207">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.postgresql.dbdefinition" version="1.0.2.v201110070445">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.postgresql.ui" version="1.0.0.v201107221506">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sap.maxdb" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sap.maxdb.dbdefinition" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sap.maxdb.ui" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sqlite" version="1.0.0.v201002041100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sqlite.dbdefinition" version="1.0.2.v201206010441">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sqlite.ui" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase" version="1.0.1.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.asa" version="1.0.2.v201212120618">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.asa.dbdefinition" version="1.0.0.v200906161800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.asa.models" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples" version="2.5.0.200810071">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.asa.ui" version="1.0.1.v200906111204">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.ase" version="1.0.3.v201212120618">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.ase.dbdefinition" version="1.0.0.v201107221507">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.ase.models" version="1.0.1.v201010140307">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.ase.ui" version="1.0.1.v200906020900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.models" version="1.0.0.v201010140307">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.enablement.sybase.ui" version="1.0.0.v200906090452">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.help" version="1.5.0.v200906020553">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.intro" version="1.7.0.v201005281800">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.dbdefinition" version="1.0.2.v201107221519">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.derby" version="1.0.0.v201107221519">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.sql" version="1.0.6.v201208230744">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.sql.edit" version="1.0.2.v201208230744">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.sql.query" version="1.1.4.v201212120619">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.sql.query.edit" version="1.0.1.v201110151245">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.modelbase.sql.xml.query" version="1.0.2.v201201131123">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.oda.cshelp" version="1.1.2.v201309200751">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.common.ui" version="1.0.1.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.data.core" version="1.2.3.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.data.ui" version="1.2.2.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.db.derby" version="1.0.0.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.db.derby.ui" version="1.0.0.v200906020900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.db.generic" version="1.0.0.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.db.generic.ui" version="1.0.0.v200906020900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.ddlgen.ui" version="1.0.3.v201211200616">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.debugger.core" version="1.0.1.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.debugger.core.ui" version="1.0.0.v201003161000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.doc.user" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.doc.user.contexts" version="1.7.0.20090521092446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.editor.core" version="1.0.3.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.editor.core.ui" version="1.0.0.v201001150815">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.parsers.sql" version="1.0.2.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.parsers.sql.lexer" version="1.0.1.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.parsers.sql.query" version="1.2.1.v201201250511">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.parsers.sql.xml.query" version="1.0.0.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.plan" version="1.0.0.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.result" version="1.1.6.v201402080246">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.result.ui" version="1.1.3.v201302061703">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.routineeditor" version="1.0.0.v201107221520">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.routineeditor.ui" version="1.0.3.v201211200616">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.schemaobjecteditor" version="1.1.0.v200906022302">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.schemaobjecteditor.ui" version="1.1.1.200810071">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages" version="1.1.1.200810071">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.sql" version="1.0.1.v201110050515">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.sql.ui" version="1.0.1.v201201270735">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.sqlbuilder" version="1.0.7.v201401250704">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.sqleditor" version="1.0.4.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.sqlscrapbook" version="1.0.2.v201205310922">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.datatools.sqltools.tabledataeditor" version="1.0.2.v201212120623">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.debug.core" version="3.8.0.v20130514-0954">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.debug.ui" version="3.9.0.v20130516-1713">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.draw2d" version="3.9.0.201308190730">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.dstore.core" version="3.3.201.201309112143">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.dstore.extra" version="2.1.400.201211090626">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.core.commands" version="0.10.2.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.098+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.core.contexts" version="1.3.1.v20130905-0905">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.771+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.core.di" version="1.3.0.v20130514-1256">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.core.di.extensions" version="0.11.100.v20130514-1256">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:38.629+0100">
+      <registredServives name="org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier" date="2019-02-10T00:09:38.629+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.core.services" version="1.1.0.v20130515-1343">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.740+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.bindings" version="0.10.102.v20140117-1939">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.364+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.css.core" version="0.10.100.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.css.swt" version="0.11.0.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.737+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.css.swt.theme" version="0.9.100.v20130515-1857">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.di" version="1.0.0.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.849+0100">
+      <registredServives name="org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier" date="2019-02-10T00:09:24.849+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.model.workbench" version="1.0.1.v20131118-1956">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.services" version="1.0.1.v20131118-1940">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.786+0100">
+      <registredServives name="org.eclipse.e4.core.contexts.IContextFunction" date="2019-02-10T00:09:24.786+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.widgets" version="1.0.0.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.workbench" version="1.0.2.v20131202-1739">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.755+0100">
+      <registredServives name="org.eclipse.e4.core.contexts.IContextFunction" date="2019-02-10T00:09:24.755+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.e4.core.contexts.IContextFunction" date="2019-02-10T00:09:24.755+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.workbench.addons.swt" version="1.0.2.v20131129-1621">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.036+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.workbench.renderers.swt" version="0.11.2.v20140205-1834">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.145+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.workbench.swt" version="0.12.2.v20140117-1939">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.740+0100">
+      <registredServives name="org.eclipse.ui.testing.TestableObject" date="2019-02-10T00:09:24.740+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.e4.core.contexts.IContextFunction" date="2019-02-10T00:09:24.740+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.e4.ui.workbench3" version="0.12.0.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf" version="3.2.0.v20130604-1622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.filetransfer" version="5.0.0.v20130604-1622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.identity" version="3.2.0.v20130604-1622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.provider.filetransfer" version="3.2.0.v20130604-1622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.provider.filetransfer.httpclient4" version="1.0.300.v20130604-1622">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl" version="1.0.0.v20130604-1622">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.provider.filetransfer.ssl" version="1.0.0.v20130604-1622">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ecf.ssl" version="1.1.0.v20130604-1622">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ant" version="2.8.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.codegen" version="2.9.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.codegen.ecore" version="2.9.1.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.codegen.ecore.ui" version="2.9.1.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.codegen.ui" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.common" version="2.9.2.v20131212-0545">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.common.ui" version="2.8.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.578+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.converter" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.databinding" version="1.3.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.databinding.edit" version="1.3.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore" version="2.9.2.v20131212-0545">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore.change" version="2.9.0.v20131212-0545">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore.change.edit" version="2.5.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore.edit" version="2.8.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore.editor" version="2.9.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.ecore.xmi" version="2.9.1.v20131212-0545">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.edit" version="2.9.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.578+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.edit.ui" version="2.9.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.594+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.exporter" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.importer" version="2.8.1.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.importer.ecore" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.importer.java" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.importer.rose" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore.editor" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore2ecore" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore2ecore.editor" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore2xml" version="2.7.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ecore2xml.ui" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.emf.mapping.ui" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.epp.mpc.core" version="1.2.1.v20140219-1000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.epp.mpc.help.ui" version="1.2.1.v20140219-1000">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.epp.mpc.ui" version="1.2.1.v20140219-1000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.093+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.epp.package.reporting" version="2.0.2.20140224-0000">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.app" version="1.3.100.v20130327-1442">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.bidi" version="0.10.0.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.common" version="3.6.200.v20130402-1505">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.concurrent" version="1.1.0.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.console" version="1.0.100.v20130429-0953">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:23.241+0100">
+      <registredServives name="java.lang.Object" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.apache.felix.service.command.Converter" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.commands.EquinoxCommandProvider" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.commands.HelpCommand" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.commands.ManCommand" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.commands.DisconnectCommand" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.commands.CommandsTracker" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.console.telnet.TelnetCommand" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.equinox.console.commands.CommandsTracker" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.framework.console.CommandProvider" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.osgi.service.resolver.PlatformAdmin" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.apache.felix.service.command.CommandProcessor" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.startlevel.StartLevel" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.permissionadmin.PermissionAdmin" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+      <consumedServices name="org.osgi.service.packageadmin.PackageAdmin" date="2019-02-10T00:09:23.241+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.ds" version="1.4.101.v20130813-1853">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.event" version="1.3.0.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:22.913+0100">
+      <registredServives name="org.osgi.service.event.EventAdmin" date="2019-02-10T00:09:22.913+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.frameworkadmin" version="2.0.100.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.frameworkadmin.equinox" version="1.0.500.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.http.jetty" version="3.0.100.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.http.registry" version="1.1.300.v20130402-1529">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.http.servlet" version="1.1.400.v20130418-1354">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.jsp.jasper" version="1.0.400.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.jsp.jasper.registry" version="1.0.300.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.launcher" version="1.3.0.v20130327-1440">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.launcher.win32.win32.x86_64" version="1.1.200.v20140116-2212">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.artifact.repository" version="1.1.200.v20130515-2028">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.console" version="1.0.300.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.core" version="2.3.0.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.108+0100">
+      <registredServives name="org.eclipse.equinox.p2.core.spi.IAgentServiceFactory" date="2019-02-10T00:09:42.108+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.p2.core.IProvisioningAgentProvider" date="2019-02-10T00:09:42.108+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.p2.core.IAgentLocation" date="2019-02-10T00:09:42.108+0100" serviceState="registered"/>
+      <registredServives name="org.eclipse.equinox.p2.core.IProvisioningAgent" date="2019-02-10T00:09:42.108+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.equinox.p2.core.IProvisioningAgentProvider" date="2019-02-10T00:09:42.108+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.director" version="2.3.1.v20140221-1852">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.director.app" version="1.0.300.v20130819-1621">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.directorywatcher" version="1.0.300.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.discovery" version="1.0.200.v20130327-2119">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.discovery.compatibility" version="1.0.101.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.engine" version="2.3.0.v20130526-2122">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.155+0100">
+      <registredServives name="org.eclipse.equinox.p2.core.spi.IAgentServiceFactory" date="2019-02-10T00:09:42.155+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.extensionlocation" version="1.2.100.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.garbagecollector" version="1.0.200.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.jarprocessor" version="1.0.300.v20130327-2119">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.metadata" version="2.2.0.v20130523-1557">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.155+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.metadata.repository" version="1.2.100.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.187+0100">
+      <registredServives name="org.eclipse.equinox.p2.core.spi.IAgentServiceFactory" date="2019-02-10T00:09:42.187+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.operations" version="2.3.0.v20130711-1809">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.108+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.publisher" version="1.3.0.v20140129-1405">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.publisher.eclipse" version="1.1.200.v20130516-1953">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ql" version="2.0.100.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.reconciler.dropins" version="1.1.200.v20130419-1850">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.repository" version="2.3.0.v20130412-2032">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.171+0100">
+      <registredServives name="org.eclipse.equinox.p2.core.spi.IAgentServiceFactory" date="2019-02-10T00:09:42.171+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.repository.tools" version="2.1.0.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.touchpoint.eclipse" version="2.1.200.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.touchpoint.natives" version="1.1.100.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.transport.ecf" version="1.1.0.v20130516-1858">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ui" version="2.3.0.v20131209-2052">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ui.discovery" version="1.0.0.v20130502-0334">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ui.importexport" version="1.1.0.v20131209-2052">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ui.sdk" version="1.0.300.v20130503-1750">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.ui.sdk.scheduler" version="1.2.0.v20140122-1840">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.187+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.updatechecker" version="1.1.200.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:42.203+0100">
+      <registredServives name="org.eclipse.equinox.p2.core.spi.IAgentServiceFactory" date="2019-02-10T00:09:42.203+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.p2.updatesite" version="1.0.400.v20130515-2028">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.preferences" version="3.5.100.v20130422-1538">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.registry" version="3.5.301.v20130717-1549">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.security" version="1.2.0.v20130424-1801">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.488+0100">
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:26.488+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.security.ui" version="1.1.100.v20130327-1442">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.security.win32.x86_64" version="1.0.100.v20130327-1442">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.simpleconfigurator.manipulator" version="2.0.0.v20130327-2119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.equinox.util" version="1.0.500.v20130404-1337">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.gef" version="3.9.0.201308190730">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.help" version="3.6.0.v20130326-1254">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.067+0100">
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:26.067+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.help.base" version="4.0.1.v20140221-1700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.help.ui" version="4.0.1.v20130708-1201">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.help.webapp" version="3.6.200.v20130514-1258">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt" version="3.9.1.v20140221-1700">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.annotation" version="1.1.0.v20130513-1648">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.apt.core" version="3.3.500.v20120516-0617">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.apt.pluggable.core" version="1.0.400.v20120516-0617">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.apt.ui" version="3.3.300.v20120516-0617">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.compiler.apt" version="1.0.600.v20130530-1010">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.compiler.tool" version="1.0.200.v20130530-1010">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.core" version="3.9.2.v20140114-1555">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.187+0100">
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:30.187+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.core.manipulation" version="1.5.0.v20130605-1748">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.391+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.debug" version="3.8.0.v20130514-0841">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.debug.ui" version="3.6.200.v20130514-0841">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.doc.user" version="3.9.1.v20140205-0929">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.junit" version="3.7.200.v20130514-0733">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.junit.core" version="3.7.200.v20130514-1154">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.junit.runtime" version="3.4.400.v20130514-0733">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.junit4.runtime" version="1.1.300.v20130514-0733">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.launching" version="3.7.1.v20131218-1102">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jdt.ui" version="3.9.2.v20131106-1600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.406+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem" version="2.0.600.v201201051400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.beaninfo" version="2.0.300.v200905030615">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.beaninfo.vm" version="2.0.300.v201004110600">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.beaninfo.vm.common" version="2.0.300.v201004110600">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.proxy" version="2.0.400.v201101101900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.util" version="2.1.100.v201103021400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.640+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jem.workbench" version="2.0.400.v201104251400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.continuation" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.http" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.io" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.security" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.server" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.servlet" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.util" version="8.1.14.v20131031">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.webapp" version="8.1.3.v20120522">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jetty.xml" version="8.1.3.v20120522">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jface" version="3.9.1.v20130725-1141">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jface.databinding" version="1.6.200.v20130515-1857">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jface.text" version="3.8.101.v20130802-1147">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.branding" version="1.3.0.v201209060440">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.core" version="1.3.0.v201304300138">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.eclipselink.branding" version="1.3.0.v201209060440">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.eclipselink.core" version="1.3.0.v201304302343">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.ui" version="1.3.1.v201401172016">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.common.utility" version="2.2.0.v201305171828">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.dbws.eclipselink.branding" version="1.2.0.v201209060440">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.dbws.eclipselink.core.gen" version="1.1.1.v201308091651">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.dbws.eclipselink.ui" version="1.1.0.v201304170155">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.doc.user" version="3.2.1.v201309042005">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.branding" version="1.3.2.v201401172016">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.core" version="1.3.1.v201308091651">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.core.schemagen" version="1.1.0.v201302131909">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.eclipselink.branding" version="1.3.2.v201401172016">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.eclipselink.core" version="1.3.0.v201305152244">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.eclipselink.core.schemagen" version="1.2.0.v201302131909">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.eclipselink.ui" version="1.4.0.v201304230122">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jaxb.ui" version="1.4.0.v201305082238">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.annotate" version="1.0.1.v201308281654">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.branding" version="3.3.2.v201401172016">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.core" version="3.3.2.v201401172016">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.db" version="2.2.1.v201311210236">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.db.ui" version="2.1.0.v201212040155">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.eclipselink.branding" version="3.3.2.v201401172016">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.eclipselink.core" version="2.3.1.v201308281654">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.eclipselink.core.ddlgen" version="2.2.0.v201212040155">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.eclipselink.ui" version="2.3.1.v201308272012">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.gen" version="2.3.0.v201305312216">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jpt.jpa.ui" version="3.3.2.v201401172016">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jsch.core" version="1.1.402.v20131127-1657">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.372+0100">
+      <registredServives name="org.eclipse.jsch.core.IJSchService" date="2019-02-10T00:09:44.372+0100" serviceState="registered"/>
+      <consumedServices name="org.eclipse.core.net.proxy.IProxyService" date="2019-02-10T00:09:44.372+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jsch.ui" version="1.1.402.v20131127-1657">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jsf.branding" version="3.4.0.v201305011549">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.annotations.controller" version="1.1.300.v200908252030">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.annotations.core" version="1.1.300.v201004141630">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.annotations.ui" version="1.1.300.v201002081900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.frameworks" version="1.1.601.v201208160700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.project.facet.core" version="1.4.201.v201108161900">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.project.facet.ui" version="1.4.200.v201008182133">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.common.ui" version="1.0.201.v201208292200">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ejb.doc.user" version="1.1.301.v201105130956">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ejb.ui" version="1.1.800.v201303152000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ejb.ui.infopop" version="1.0.300.v2010022311013">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee" version="1.1.710.v201401281800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.core" version="1.3.10.v201310231400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.doc.user" version="1.1.400.v201008122303">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ejb" version="1.1.700.v201305012100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ejb.annotation.model" version="1.1.300.v201003112036">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ejb.annotations.emitter" version="1.1.200.v200909290826">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ejb.annotations.ui" version="1.1.200.v201004290730">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ejb.annotations.xdoclet" version="1.2.200.v201103302125">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.006+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.infopop" version="1.0.300.v200805140415">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.jca" version="1.1.700.v201305311500">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.jca.ui" version="1.1.500.v201304242200">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.navigator.ui" version="1.1.600.v201203142300">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.ui" version="1.1.710.v201312231800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.web" version="1.1.701.v201401101700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.webservice" version="1.1.400.v201004110600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.672+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.webservice.ui" version="1.1.500.v201105122000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.609+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.j2ee.xdoclet.runtime" version="1.1.300.v201004280700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:42.991+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jee" version="1.0.601.v201401082230">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jee.ejb" version="1.0.400.v201305070000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jee.ui" version="1.0.601.v201401151036">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jee.web" version="1.0.400.v201305070100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.apache.trinidad.tagsupport" version="1.3.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.common" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.common.runtime" version="1.3.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.common.ui" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.core" version="1.6.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.doc.user" version="1.4.0.v201304301558">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.facelet.core" version="1.2.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.facelet.ui" version="1.2.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.facesconfig" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.facesconfig.ui" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.standard.tagsupport" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsf.ui" version="1.5.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsp.core" version="1.2.602.v201401151909">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsp.ui" version="1.1.801.v201307171524">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.jsp.ui.infopop" version="1.0.200.v201004150328">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.pagedesigner" version="1.5.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.pagedesigner.jsf.ui" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.pagedesigner.jsp.core" version="1.4.0.v201305011549">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.core" version="1.2.302.v20120503_1042">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.generic.core" version="1.0.800.v20130412_1040">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.069+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.generic.jboss" version="1.6.100.v20130422_1357">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.022+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.generic.jonas" version="1.5.300.v20130422_1357">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.037+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.generic.ui" version="1.0.505.v20100428">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.058+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.preview.adapter" version="1.1.201.v20130123_1813">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.tomcat.core" version="1.1.405.v20131208_1453">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.tomcat.ui" version="1.1.300.v20120420_1012">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.ui" version="1.1.202.v20110419">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.ui.doc.user" version="1.0.500.v201005192218">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.server.ui.infopop" version="1.0.400.v200805140145">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.servlet.ui" version="1.1.700.v201303151600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.779+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.servlet.ui.infopop" version="1.0.500.v201105122000">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.standard.schemas" version="1.2.101.v201402052019">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws" version="1.0.600.v201108242234">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis.consumption.core" version="1.0.408.v201401152057">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis.consumption.ui" version="1.0.701.v201311011642">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis.creation.ui" version="1.0.750.v201204120428">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis.infopop" version="1.0.300.v200805140230">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis.ui.doc.user" version="1.1.100.v201005192217">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.consumption.core" version="1.0.105.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.consumption.ui" version="1.0.103.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.core" version="1.0.204.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.creation.core" version="1.0.106.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.creation.ui" version="1.0.104.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.ui" version="1.0.303.v201003110431">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.axis2.ui.doc.user" version="1.0.100.v201005192217">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.consumption" version="1.0.701.v201212112014">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.consumption.infopop" version="1.0.300.v200805140230">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.consumption.ui" version="1.1.702.v201312022107">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.consumption.ui.doc.user" version="1.0.600.v201005192217">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.creation.ejb.ui" version="1.0.201.v201004211805">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.creation.ui" version="1.0.800.v201304171447">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.doc.user" version="1.0.600.v201005192217">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.infopop" version="1.0.300.v200805140230">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.jaxrs.core" version="1.0.502.v201310152235">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.jaxrs.ui" version="1.0.601.v201309040304">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.uddiregistry" version="1.0.500.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.jst.ws.ui" version="1.0.403.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ltk.core.refactoring" version="3.6.100.v20130605-1748">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.113+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ltk.ui.refactoring" version="3.7.100.v20130605-1748">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.129+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.bugzilla.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.844+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.bugzilla.ide" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.bugzilla.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.860+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:27.970+0100">
+      <consumedServices name="org.eclipse.core.net.proxy.IProxyService" date="2019-02-10T00:09:27.970+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.identity.core" version="1.1.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.net" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:27.954+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.notifications.core" version="1.1.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:27.923+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.notifications.feed" version="1.1.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.876+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.notifications.ui" version="1.1.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.repositories.core" version="1.1.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.repositories.ui" version="1.1.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.screenshots" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.704+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.workbench" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.891+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.commons.xmlrpc" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.context.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.922+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.context.tasks.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.907+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.context.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.debug.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.discovery.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.discovery.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.help.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.ide.ant" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.076+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.ide.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.java.tasks" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.java.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.monitor.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.monitor.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:27.939+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.resources.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.bugs" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.index.core" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.index.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.search" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.tasks.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:29.000+0100">
+      <consumedServices name="org.eclipse.core.net.proxy.IProxyService" date="2019-02-10T00:09:29.000+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.team.cvs" version="3.9.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.team.ui" version="3.9.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.498+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.confluence.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.confluence.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.context.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.help.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.mediawiki.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.mediawiki.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.tasks.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.textile.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.textile.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.tracwiki.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.tracwiki.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.twiki.core" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.twiki.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.mylyn.wikitext.ui" version="1.8.2.v20140211-0100">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.orbit.mongodb" version="2.10.1.v20130422-1135">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.osgi.services" version="3.3.100.v20130513-1956">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.osgi.util" version="3.2.300.v20130513-1956">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde" version="3.8.100.v20140221-1700">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.api.tools" version="1.0.501.v20130807-1634">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.api.tools.ui" version="1.0.401.v20130730-1957">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.216+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.build" version="3.8.100.v20130514-1028">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.core" version="3.9.1.v20130628-1111">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.doc.user" version="3.9.2.v20140205-0929">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ds.core" version="1.0.300.v20130514-1232">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ds.ui" version="1.0.300.v20130507-2057">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.232+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.junit.runtime" version="3.4.300.v20130422-2046">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.launching" version="3.6.101.v20130807-1445">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.941+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.runtime" version="3.4.400.v20130402-1757">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.248+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ua.core" version="1.0.300.v20130402-1757">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ua.ui" version="1.0.300.v20130508-1926">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.248+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ui" version="3.8.0.v20130515-1659">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.988+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.279+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.pde.ui.templates" version="3.4.600.v20130507-2057">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Resolved" date="2019-02-10T00:27:43.263+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.antlr" version="3.2.0.v201302191141">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.asm" version="3.3.1.v201302191223">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.core" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.core" version="2.5.1.v20130913-5eaeb06">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.dbws" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.dbws.builder" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.jpa" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.jpa" version="2.5.1.v20130913-5eaeb06">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.jpa.jpql" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.jpa.jpql" version="2.5.1.v20130913-5eaeb06">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.moxy" version="2.5.1.v20130918-f2b9fc5">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.moxy" version="2.5.1.v20130913-5eaeb06">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.oracle" version="2.5.1.v20130618-75cdba2">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.persistence.sdo" version="2.5.1.v20130913-5eaeb06">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.platform" version="4.3.2.v20140221-1700">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.platform.doc.user" version="4.3.1.v20140123-0938">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rcp" version="4.3.0.v20140221-1700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse" version="3.5.0.201305201712">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.connectorservice.dstore" version="3.1.301.201209211856">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.connectorservice.local" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.076+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.connectorservice.ssh" version="2.1.300.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.connectorservice.telnet" version="1.2.300.201205071750">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.core" version="3.3.100.201307171557">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.546+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.doc.user" version="3.4.100.201305031537">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.dstore.security" version="3.0.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.efs" version="2.1.401.201301141950">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.efs.ui" version="2.1.400.201205062159">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.files.ui" version="3.2.200.201307171555">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.185+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.importexport" version="1.2.300.201205241511">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.processes.ui" version="3.0.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services" version="3.2.200.201211090626">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.546+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services.dstore" version="3.2.100.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services.files.ftp" version="3.0.500.201305151921">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services.local" version="2.1.500.201305211438">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.076+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services.ssh" version="3.2.100.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.services.telnet" version="2.0.400.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.shells.ui" version="3.0.500.201305031537">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.files.core" version="3.3.1.201306281330">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.951+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.files.dstore" version="2.1.300.201205241511">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.files.ftp" version="2.2.0.201305152119">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.files.local" version="2.1.300.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.951+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.files.ssh" version="2.1.300.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.processes.core" version="3.1.300.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.processes.dstore" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.processes.local" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.processes.shell.linux" version="1.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.shells.core" version="3.1.300.201205141739">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.998+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.shells.dstore" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.shells.local" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.014+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.shells.ssh" version="2.1.400.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.shells.telnet" version="1.2.300.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.terminals.core" version="1.0.300.201205062159">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.subsystems.terminals.ssh" version="1.0.200.201205062159">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.terminals.ui" version="1.2.100.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.ui" version="3.3.100.201306211706">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:43.780+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.rse.useractions" version="1.1.500.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.search" version="3.9.1.v20131121-1346">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.swt" version="3.102.1.v20140206-1334">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.swt.win32.win32.x86_64" version="3.102.1.v20140206-1358">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.team.core" version="3.7.0.v20130514-1224">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.265+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.team.cvs.core" version="3.3.502.v20131127-1657">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.372+0100">
+      <consumedServices name="org.eclipse.jsch.core.IJSchService" date="2019-02-10T00:09:44.372+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.team.cvs.ssh2" version="3.2.302.v20131127-1657">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.team.cvs.ui" version="3.3.600.v20130514-1224">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.560+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.team.ui" version="3.7.1.v20130729-1104">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.419+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.text" version="3.5.300.v20130515-1451">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.tm.terminal" version="3.2.100.201308011444">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.tm.terminal.ssh" version="2.1.300.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.tm.terminal.telnet" version="2.1.300.201305201712">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.tm.terminal.view" version="2.4.100.201305201712">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui" version="3.105.0.v20130522-1122">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.browser" version="3.4.100.v20130527-1656">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.cheatsheets" version="3.4.200.v20130326-1254">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.console" version="3.5.200.v20130514-0954">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:44.435+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.editors" version="3.8.100.v20130513-1637">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.015+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.externaltools" version="3.2.200.v20130508-2007">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.forms" version="3.6.1.v20130822-1117">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:28.891+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.ide" version="3.9.2.v20131004-0923">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:24.676+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.ide.application" version="1.0.401.v20131105-1007">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.intro" version="3.4.200.v20130326-1254">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:31.654+0100">
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:31.654+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.intro.universal" version="3.2.600.v20130326-1254">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:31.702+0100">
+      <consumedServices name="org.eclipse.osgi.service.debug.DebugOptions" date="2019-02-10T00:09:31.702+0100" serviceState="registered"/>
+    </PluginStates>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.navigator" version="3.5.300.v20130517-0139">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:29.781+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.navigator.resources" version="3.4.501.v20131021-1545">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:29.797+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.net" version="1.2.200.v20120807-0927">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:26.691+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.trace" version="1.0.100.v20130508-1926">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.views" version="3.6.100.v20130326-1250">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.516+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.views.log" version="1.0.400.v20130515-2009">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.972+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.views.properties.tabbed" version="3.6.0.v20130515-1857">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.win32" version="3.2.400.v20130516-1056">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.workbench" version="3.105.2.v20140211-1711">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.ui.workbench.texteditor" version="3.8.101.v20130729-1318">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:25.956+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.update.configurator" version="3.3.200.v20140203-1328">
+    <PluginStates state="Active" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.command.env" version="1.0.409.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.command.env.core" version="1.0.205.v201004211805">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.command.env.doc.user" version="1.5.300.v201005192225">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.command.env.infopop" version="1.0.100.v200805301544">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.command.env.ui" version="1.1.103.v201102260635">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.core" version="1.2.0.v200908252030">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.emf" version="1.2.200.v201301171800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.625+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.emfworkbench.integration" version="1.2.101.v201107140600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.640+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.environment" version="1.0.400.v200912181832">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.frameworks" version="1.2.200.v201203141800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.609+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.frameworks.ui" version="1.2.201.v201208292200">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.infopop" version="1.0.300.v201004280700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.modulecore" version="1.2.302.v201311131500">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.modulecore.ui" version="1.0.201.v201208241600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.project.facet.core" version="1.4.300.v201111030424">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.672+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.project.facet.ui" version="1.4.300.v201111030424">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.snippets" version="1.2.200.v201204260225">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.ui" version="1.1.500.v200911190730">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.common.uriresolver" version="1.2.100.v201305141800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.css.core" version="1.1.702.v201312092033">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.css.ui" version="1.0.801.v201307171524">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.doc.user" version="1.2.0.v200806052254">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.dtd.core" version="1.1.700.v201210082138">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.dtd.ui" version="1.0.801.v201308100603">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.dtd.ui.infopop" version="1.0.400.v201008112018">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.dtdeditor.doc.user" version="1.0.700.v201008112018">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.html.core" version="1.1.702.v201401301446">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.html.ui" version="1.0.801.v201307171524">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.html.ui.infopop" version="1.0.200.v201004150328">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.internet.cache" version="1.0.600.v201203071939">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.internet.monitor.core" version="1.0.505.v20110419">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.internet.monitor.ui" version="1.0.608.v20130501_1206">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.core" version="1.3.1.v201401291437">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.core" version="3.1.1.v201208171701">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.crossfire" version="1.0.301.v201208171701">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.rhino" version="1.0.201.v201208171701">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.rhino.debugger" version="1.0.301.v201208171701">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.rhino.ui" version="1.0.101.v201208171701">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.transport" version="1.0.101.v201208171701">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.debug.ui" version="1.0.300.v201209252144">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.doc" version="1.4.0.v201202031526">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.manipulation" version="1.0.400.v201204261600">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.support.firefox" version="1.0.402.v201208171701">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.support.ie" version="1.0.402.v201208171701">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.ui" version="1.1.401.v201401171657">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.web.core" version="1.0.700.v201307162035">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.web.support.jsp" version="1.0.600.v201307162035">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.jsdt.web.ui" version="1.0.700.v201308282108">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.core" version="1.5.100.v20140109_1422">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.discovery" version="1.0.401.v20140204_1519">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.http.core" version="1.0.200.v20090429">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.http.ui" version="1.0.300.v20120821_1517">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.preview" version="1.1.200.v20130502_0936">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.preview.adapter" version="1.1.200.v20130502_1436">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.ui" version="1.4.200.v20140106_1456">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.ui.doc.user" version="1.1.500.v20120830_2252">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.server.ui.infopop" version="1.1.100.v201005192130">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.sse.core" version="1.1.802.v201401101620">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.sse.doc.user" version="1.1.100.v201005192212">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.sse.ui" version="1.3.201.v201401132128">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.sse.ui.infopop" version="1.0.300.v201004150328">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.standard.schemas" version="1.0.700.v201304171716">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.validation" version="1.2.501.v201311151800">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.validation.infopop" version="1.0.300.v200806041506">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.validation.ui" version="1.2.401.v201310231535">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.web" version="1.1.701.v201401101700">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+    <PluginStates state="Active" date="2019-02-10T00:09:30.656+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.web.ui" version="1.1.600.v201109220400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.web.ui.infopop" version="1.0.300.v200805140415">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.webtools.doc.user" version="1.0.500.v201005192212">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws" version="1.1.300.v201204181727">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.explorer" version="1.0.701.v201303130503">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.infopop" version="1.0.300.v200805140230">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.parser" version="1.0.500.v201210042315">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.service.policy" version="1.0.303.v201009221810">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.service.policy.ui" version="1.0.400.v201201111717">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.ws.ui" version="1.1.200.v201004211805">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsdl" version="1.2.300.v201109010430">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsdl.ui" version="1.2.501.v201303130455">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsdl.ui.doc.user" version="1.0.800.v201008122303">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsdl.validation" version="1.1.600.v201203081939">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsi" version="1.0.500.v201203081939">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsi.ui" version="1.0.502.v201104071820">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.wsi.ui.doc.user" version="1.0.700.v201008122303">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.core" version="1.1.801.v201308100603">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.ui" version="1.1.401.v201308132110">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.ui.infopop" version="1.0.400.v201004292007">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath.core" version="1.3.0.v201108312136">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath.ui" version="1.1.101.v201204260040">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath2" version="1.1.0.v200910101444">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath2.processor" version="2.1.100.v201211261519">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath2.processor.doc.user" version="2.0.0.v201105190326">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xml.xpath2.wtptypes" version="2.0.0.v201103212215">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xmleditor.doc.user" version="1.0.700.v201005192212">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsd.core" version="1.1.800.v201302131613">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsd.ui" version="1.2.500.v201203081826">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsdeditor.doc.user" version="1.0.800.v201005192212">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl" version="1.2.0.v201009121641">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.core" version="1.1.301.v20130423-0632">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.debug.ui" version="1.0.302.v201304241031">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.doc" version="1.0.100.v201004292007">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.exslt.core" version="1.0.0.v201005240426">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.exslt.ui" version="1.0.0.v201006012005">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.jaxp.debug" version="1.0.300.v201304102231">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.jaxp.debug.ui" version="1.0.200.v201103081922">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.jaxp.launching" version="1.0.300.v201304102231">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.launching" version="1.1.0.v201304241031">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.saxon" version="1.0.200.v201103081922">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.ui" version="1.1.301.v20130423-0632">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.wst.xsl.xalan" version="1.0.100.v201103081922">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.xsd" version="2.9.1.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.eclipse.xsd.edit" version="2.6.0.v20140203-1126">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.hamcrest.core" version="1.3.0.v201303031735">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.jdom" version="1.1.1.v201101151400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.jsoup" version="1.7.2.v201304221138">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.junit" version="4.11.0.v201303080030">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.mozilla.javascript" version="1.7.2.v201005080400">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.objectweb.asm" version="3.3.1.v201105211655">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.sat4j.core" version="2.3.5.v201308161310">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.sat4j.pb" version="2.3.5.v201308161310">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.uddi4j" version="2.0.5.v200805270300">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.w3c.css.sac" version="1.3.1.v200903091627">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.w3c.dom.smil" version="1.0.0.v200806040011">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.w3c.dom.svg" version="1.1.0.v201011041433">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="org.w3c.sac" version="1.3.0.v20120820">
+    <PluginStates state="Resolved" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+  <pluginTraces symbolicName="uk.co.spudsoft.birt.emitters.excel" version="4.3.2.v20140211-1400">
+    <PluginStates state="Starting" date="2019-02-10T00:09:22.499+0100"/>
+  </pluginTraces>
+</traces:Traces>
